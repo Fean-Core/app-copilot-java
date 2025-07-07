@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "nome": "João Silva",
+    "email": "joao@email.com",
+    "telefone": "(11) 99999-9999",
+    "idade": 30,
+    "cidade": "São Paulo",
+    "profissao": "Desenvolvedor",
+    "cpf": "123.456.789-00",
+    "endereco": {
+      "rua": "Rua das Flores, 123",
+      "bairro": "Centro",
+      "cep": "01234-567",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Maria Santos",
+    "email": "maria@email.com",
+    "telefone": "(21) 88888-8888",
+    "idade": 25,
+    "cidade": "Rio de Janeiro",
+    "profissao": "Analista",
+    "cpf": "987.654.321-00",
+    "endereco": {
+      "rua": "Avenida Copacabana, 456",
+      "bairro": "Copacabana",
+      "cep": "22070-000",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Pedro Oliveira",
+    "email": "pedro@email.com",
+    "telefone": "(31) 77777-7777",
+    "idade": 35,
+    "cidade": "Belo Horizonte",
+    "profissao": "Gerente",
+    "cpf": "456.789.123-00",
+    "endereco": {
+      "rua": "Rua da Liberdade, 789",
+      "bairro": "Savassi",
+      "cep": "30112-000",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  }
+]
