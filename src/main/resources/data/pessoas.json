@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "nome": "João Silva",
+    "email": "joao.silva@email.com",
+    "telefone": "(11) 99999-1234",
+    "idade": 35,
+    "cidade": "São Paulo",
+    "profissao": "Desenvolvedor",
+    "cpf": "123.456.789-01",
+    "endereco": {
+      "rua": "Rua das Flores, 123",
+      "bairro": "Centro",
+      "cep": "01234-567",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Maria Santos",
+    "email": "maria.santos@email.com",
+    "telefone": "(21) 98888-5678",
+    "idade": 28,
+    "cidade": "Rio de Janeiro",
+    "profissao": "Designer",
+    "cpf": "987.654.321-09",
+    "endereco": {
+      "rua": "Av. Copacabana, 456",
+      "bairro": "Copacabana",
+      "cep": "22070-001",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Carlos Oliveira",
+    "email": "carlos.oliveira@email.com",
+    "telefone": "(31) 97777-9012",
+    "idade": 42,
+    "cidade": "Belo Horizonte",
+    "profissao": "Engenheiro",
+    "cpf": "456.789.123-45",
+    "endereco": {
+      "rua": "Rua da Liberdade, 789",
+      "bairro": "Savassi",
+      "cep": "30112-000",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Ana Costa",
+    "email": "ana.costa@email.com",
+    "telefone": "(85) 96666-3456",
+    "idade": 31,
+    "cidade": "Fortaleza",
+    "profissao": "Médica",
+    "cpf": "789.123.456-78",
+    "endereco": {
+      "rua": "Rua do Sol, 321",
+      "bairro": "Meireles",
+      "cep": "60165-001",
+      "cidade": "Fortaleza",
+      "estado": "CE"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Pedro Ferreira",
+    "email": "pedro.ferreira@email.com",
+    "telefone": "(47) 95555-7890",
+    "idade": 39,
+    "cidade": "Florianópolis",
+    "profissao": "Advogado",
+    "cpf": "321.654.987-12",
+    "endereco": {
+      "rua": "Rua das Palmeiras, 654",
+      "bairro": "Lagoa da Conceição",
+      "cep": "88062-001",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    }
+  },
+  {
+    "id": 6,
+    "nome": "Lucia Mendes",
+    "email": "lucia.mendes@email.com",
+    "telefone": "(61) 94444-2468",
+    "idade": 26,
+    "cidade": "Brasília",
+    "profissao": "Jornalista",
+    "cpf": "654.987.321-56",
+    "endereco": {
+      "rua": "SQN 308 Bloco A",
+      "bairro": "Asa Norte",
+      "cep": "70747-010",
+      "cidade": "Brasília",
+      "estado": "DF"
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Roberto Lima",
+    "email": "roberto.lima@email.com",
+    "telefone": "(51) 93333-1357",
+    "idade": 45,
+    "cidade": "Porto Alegre",
+    "profissao": "Professor",
+    "cpf": "159.753.486-24",
+    "endereco": {
+      "rua": "Rua dos Andradas, 987",
+      "bairro": "Centro Histórico",
+      "cep": "90020-004",
+      "cidade": "Porto Alegre",
+      "estado": "RS"
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Fernanda Rocha",
+    "email": "fernanda.rocha@email.com",
+    "telefone": "(62) 92222-8642",
+    "idade": 33,
+    "cidade": "Goiânia",
+    "profissao": "Arquiteta",
+    "cpf": "753.159.852-97",
+    "endereco": {
+      "rua": "Av. T-4, 147",
+      "bairro": "Setor Bueno",
+      "cep": "74210-030",
+      "cidade": "Goiânia",
+      "estado": "GO"
+    }
+  },
+  {
+    "id": 9,
+    "nome": "Tiago Almeida",
+    "email": "tiago.almeida@email.com",
+    "telefone": "(11) 91111-1111",
+    "idade": 30,
+    "cidade": "São Paulo",
+    "profissao": "Analista de Sistemas",
+    "cpf": "321.654.987-12",
+    "endereco": {
+        "rua": "Av. Paulista, 1000",
+        "bairro": "Bela Vista",
+        "cep": "01310-100",
+        "cidade": "São Paulo",
+        "estado": "SP"
+    }
+  },
+  {    
+    "id": 10,
+    "nome": "Juliana Pereira",
+    "email": "qq@teste",
+    "telefone": "(21) 92222-2222",
+    "idade": 29,
+    "cidade": "Rio de Janeiro",
+    "profissao": "Fotógrafa",
+    "cpf": "123.456.789-00",
+    "endereco": {
+        "rua": "Rua do Catete, 200",
+        "bairro": "Catete",
+        "cep": "22220-000",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+    }
+  }
+]
