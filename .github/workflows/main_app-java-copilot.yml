@@ -39,31 +39,31 @@ jobs:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    permissions:
-      id-token: write #This is required for requesting the JWT
-      contents: read #This is required for actions/checkout
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   permissions:
+  #     id-token: write #This is required for requesting the JWT
+  #     contents: read #This is required for actions/checkout
   
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
-        with:
-          name: java-app
+  #   steps:
+  #     - name: Download artifact from build job
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: java-app
       
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_42D50969D9F34536970F173C71018131 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E2CD008740B54878A3C5F1A0BDF17411 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B5F77C2E573E423193D6DF2100132BA0 }}
+  #     - name: Login to Azure
+  #       uses: azure/login@v2
+  #       with:
+  #         client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_42D50969D9F34536970F173C71018131 }}
+  #         tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E2CD008740B54878A3C5F1A0BDF17411 }}
+  #         subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B5F77C2E573E423193D6DF2100132BA0 }}
 
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'app-java-copilot'
-          slot-name: 'Production'
-          package: '*.jar'
+  #     - name: Deploy to Azure Web App
+  #       id: deploy-to-webapp
+  #       uses: azure/webapps-deploy@v3
+  #       with:
+  #         app-name: 'app-java-copilot'
+  #         slot-name: 'Production'
+  #         package: '*.jar'
           
