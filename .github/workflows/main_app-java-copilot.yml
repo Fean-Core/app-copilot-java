@@ -29,6 +29,9 @@ jobs:
       
       - name: Run tests with Maven
         run: mvn test
+        
+      - name: Generate test report
+        run: mvn surefire-report:report
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4

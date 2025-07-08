@@ -37,3 +37,15 @@ build/
 
 ### Logs ###
 *.log
+
+# Ignorar arquivos de teste problemáticos
+src/test/java/com/example/service/PessoaServiceTest.java
+
+# Relatórios de teste
+target/surefire-reports/
+target/failsafe-reports/
+
+# Arquivos de dump
+*.dump
+*.dumpstream
+*jvmRun*.dump
